@@ -1,0 +1,119 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+#btn{
+    width: 80px;
+    height: 30px;
+    margin:50px auto;
+    background-color: #31b0d5;
+    border: 1px solid #66512c;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn-wrap{
+    padding: 50px 30px;
+
+    text-align: center;
+}
+.disable{
+    color: #222222;
+}
+
+.flex-container {
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.b1{
+flex:1;
+    border-radius: 5px;
+}
+.preview-wrap{
+    border: 1px solid #ccc;
+    padding: 5px 15px 10px;
+    margin: 5px;
+}
+/*-----SETTINGS-WRAP*/
+.settings-wrap{
+    clear: both;
+    border: 1px solid #ccc;
+    padding: 5px 15px 10px;
+    margin: 5px;
+    position: relative;
+}
+.form-wrap {
+    clear: both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.form-wrap label{
+    text-align: right;
+    width: 125px;
+    float: left;
+    padding-right: 10px;
+}
+
+.checkbox {
+    position: absolute;
+
+    margin-left: 12px;
+    left: 0;
+}
+
+/*-----CODE-WRAP*/
+
+#code-wrap {
+
+    clear: both;
+    width: 100%;
+    padding-top: 40px;
+}
+
+#code-wrap-box {
+    border: 1px solid #ccc;
+    padding: 5px 15px 10px;
+
+}
+
+#code-wrap pre {
+    padding-top: 16px;
+    font: 14px/18px Droid Sans Mono;
+    letter-spacing: 1px;
+}
+
+#code-wrap pre .code-row {
+    height: 19px;
+}
+
+#code-wrap pre .code-row.odd {
+    background: #f9f9f9;
+    line-height: 20px;
+}
+
+#ie-code-wrap {
+    font-size: 12px;
+    padding-top: 35px;
+}
+
